@@ -5,13 +5,18 @@ Classifier, GaussianNB, and XGBClassifier. This ensemble approach employs a
 Voting Classifier with hard voting, which combines multiple base models to enhance 
 predictive performance. The integration of various models aims to capture a broader 
 range of patterns and features associated with malicious URLs, thereby improving the 
-detection system's overall performance. The project intends to use an ensemble 
-strategy to overcome the limitations of individual models and improve the detection 
-system's generalisation capabilities. The use of an ensemble model allows for a more 
-thorough understanding of the intricate characteristics of malicious URLs, resulting in 
-a more robust defence mechanism against the evolving cyber threats. The ensemble 
-model's performance is then evaluated using standard classification metrics such as 
-accuracy, precision, recall, and F1-score, providing a comprehensive assessment of its 
-effectiveness in detecting malicious URLs in real-world scenarios.
+detection system's overall performance. 
+
+The final proposed model involves the collection of a Kaggle dataset containing benign and 
+malicious URLs. Features are then extracted from these URLs to create both balanced and 
+imbalanced datasets. The data is then split into training (80%) and testing (20%) sets. 
+Various classifiers, including Decision Tree, Random Forest, AdaBoost, KNeighbors, 
+SGD, ExtraTrees, GaussianNB, and XGB, are trained on the dataset. The top four 
+performing models are selected for an ensemble voting classifier using hard voting to 
+enhance prediction accuracy. This classifier is evaluated using cross-validation, 
+specifically StratifiedKFold with 5 folds, to ensure reliability and robustness before 
+making final predictions. The process flow, illustrated in the accompanying flowchart, 
+emphasizes the use of ensemble learning, hard voting, and data balancing techniques 
+to improve the classification of malicious URLs.
 
 ![image](https://github.com/user-attachments/assets/9d6d8403-92aa-4ff5-bdf8-2b8981d50e0d)
