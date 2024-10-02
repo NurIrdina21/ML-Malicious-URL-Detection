@@ -23,4 +23,4 @@ to improve the classification of malicious URLs.
 
 
 Project by: Nur Irdina Binti Hassan
-Multimedia University, Cyberjaya
+\n Multimedia University, Cyberjaya
