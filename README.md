@@ -20,3 +20,7 @@ emphasizes the use of ensemble learning, hard voting, and data balancing techniq
 to improve the classification of malicious URLs.
 
 ![image](https://github.com/user-attachments/assets/9d6d8403-92aa-4ff5-bdf8-2b8981d50e0d)
+
+
+Project by: Nur Irdina Binti Hassan
+Multimedia University, Cyberjaya
